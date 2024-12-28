@@ -1,0 +1,56 @@
+.navbar-brand{
+    color: rgb(175, 11, 11) !important;
+    font-size: 30px !important;
+}
+
+.cards{
+    width: 200px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #f8f9fa; /* Light gray background for better visibility */
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #ddd; /* Adds a subtle border at the top */
+}
+
+footer h3 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none; /* Removes underline */
+    color: black; /* Makes the text color black */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+footer a:hover {
+    color: #007bff; /* Changes color to blue on hover */
+}
+
+footer p {
+    color: #666; /* Subtle text color for footer text */
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .col-4 {
+    flex: 1; /* Ensures equal width for columns */
+    max-width: 200px; /* Restricts maximum column width */
+}
+
+footer .col-4 a {
+    display: block; /* Makes links take full line for better spacing */
+    margin: 5px 0; /* Adds spacing between links */
+    font-size: 14px;
+}

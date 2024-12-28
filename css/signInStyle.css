@@ -1,0 +1,107 @@
+/* .body-sign{
+    background-image: url("/images/signInImg/c1.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-sign {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  /* .body-sign {
+    background-image: url("/xampp/htdocs/NokolFlix/images/signInImg/c1.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.body-sign {
+  background-image: url("../images/signInImg/c1.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional fallback */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  .sign-in-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+   .head{
+    margin-bottom: 20px;
+  }
+  
+  .signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inp {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .sbtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #dc3545; /* Text color matches the 'btn-outline-danger' class */
+    background-color: transparent;
+    border: 1px solid #dc3545;
+    transition: 0.3s ease;
+  }
+  
+  .sbtn:hover {
+    background-color: #dc3545; /* Button fills with color on hover */
+    color: white;
+  }
+  
+  p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+
